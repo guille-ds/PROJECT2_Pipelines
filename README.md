@@ -1,6 +1,6 @@
-![satellite Terra pic](/input/pic.png)
+![satellite_Terra_pic](/input/pic.png)
 
-# PROJECT2 /// Satellites
+# PROJECT 2 /// Tracking Satellites  
 
 En este proyecto se busca **situar en tiempo real la posición de un satélite** en coordenadas terrestres (latitud, longitud, altitud). Para ello se utiliza un **Dataset y una API**.
 
