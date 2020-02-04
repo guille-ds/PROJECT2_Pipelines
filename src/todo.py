@@ -21,7 +21,7 @@ x = input()
 print('Your chosen country is ' + x)
 print("------------------------------------------------------")
 dfCountry = countryFilter(x)
-print(dfCountry.head())
+print(dfCountry.head(20))
 print("------------------------------------------------------")
 
 print('Name a year')
