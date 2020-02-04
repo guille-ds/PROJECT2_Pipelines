@@ -30,8 +30,11 @@ A dicha información se le añade la provista por el registro del satélite eleg
 - Limitar la entrada de filtros añadiendo *try/except*
 - Añadir otros flags para un filtrado basado en otros parámetros presentes en el Dataset.
 - Mejorar la versatilidad añadiendo distintos modos de trackeo o requests a la API, pues cuenta con 3 modos más (*Visual passes, Radio passes, What's up*)
-- Incluir marcación de posición en mapa (*Folium* no permite exportación directa aunque con *Selenium* se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
 - Exportación en pdf de la información y/o envío de mail con pdf adjunto.
+- Incluir marcación de posición en mapa (*Folium* no permite exportación directa aunque con *Selenium* se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
+
+![Folium test pic](/input/pic2.png)
+
 
 ### **LINKS**
 
