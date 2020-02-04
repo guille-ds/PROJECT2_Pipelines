@@ -10,7 +10,7 @@ Ha sido limpiado para este proyecto de modo que se facilite su lectura.
 
 La API es la REST API v1 de N2YO. que cuenta con distintos métodos para la localización de satélites de forma gratuita, mediante una APIKey y con una restrición de 1000 requests/hora.
 
-FUNCIONAMIENTO:
+###FUNCIONAMIENTO:
 
 Se ejecuta de main.py desde la línea de comandos y se introducen 3 flags:
 
