@@ -18,21 +18,21 @@ Se ejecuta de main.py desde la línea de comandos y se introducen 3 flags:
 - Año (de lanzamiento)
 - Segundos (durante los cuales se trackeará el satélite)
 
-Ej:$ python3 main.py USA 2010 2
+Ej:  $ python3 main.py USA 2010 2
 
 Se produce el filtrado del dataset en base a los dos primeros campos introducidos y se muestra en la terminal los satélites que pasan el filtro.
 El usuario introduce el número de registro del satélite a trackear, lo cual ejecuta una request a la API, que devuelve un diccionario con la posición geolocalizada del satélite.
 A dicha información se le añade la provista por el registro del satélite elegido en el dataset y se muestra en pantalla.
 
-RETOS A FUTURO:
+DIRECCIONES DE MEJORA:
 
-Limitar la entrada de filtros añadiendo try/except
-Añadir otros flags para un filtrado basado en otros parámetros presentes en el Dataset.
-Mejorar la versatilidad añadiendo distintos modos de trackeo o requests a la API, pues cuenta con 3 modos más (Visual passes, Radio passes, What's up)
-Incluir marcación de posición en mapa (Folium no permite exportación directa aunque con Selenium se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
-Exportación en pdf de la información y/o envío de mail con pdf adjunto.
+- Limitar la entrada de filtros añadiendo try/except
+- Añadir otros flags para un filtrado basado en otros parámetros presentes en el Dataset.
+- Mejorar la versatilidad añadiendo distintos modos de trackeo o requests a la API, pues cuenta con 3 modos más (Visual passes, Radio passes, What's up)
+- Incluir marcación de posición en mapa (Folium no permite exportación directa aunque con Selenium se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
+- Exportación en pdf de la información y/o envío de mail con pdf adjunto.
 
 LINKS:
 
-https://www.ucsusa.org/resources/satellite-database
-https://www.n2yo.com/api/#positions
+- Dataset https://www.ucsusa.org/resources/satellite-database
+- API https://www.n2yo.com/api/#positions
