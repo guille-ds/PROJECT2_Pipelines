@@ -11,11 +11,12 @@ Ha sido limpiado para este proyecto de modo que se facilite su lectura.
 La API es la REST API v1 de N2YO. que cuenta con distintos métodos para la localización de satélites de forma gratuita, mediante una APIKey y con una restrición de 1000 requests/hora.
 
 FUNCIONAMIENTO:
+
 Se ejecuta de main.py desde la línea de comandos y se introducen 3 flags:
 
-País (de procedencia del satélite)
-Año (de lanzamiento)
-Segundos (durante los cuales se trackeará el satélite)
+- País (de procedencia del satélite)
+- Año (de lanzamiento)
+- Segundos (durante los cuales se trackeará el satélite)
 
 Ej:$ python3 main.py USA 2010 2
 
@@ -24,12 +25,14 @@ El usuario introduce el número de registro del satélite a trackear, lo cual ej
 A dicha información se le añade la provista por el registro del satélite elegido en el dataset y se muestra en pantalla.
 
 RETOS A FUTURO:
+
 Limitar la entrada de filtros añadiendo try/except
 Añadir otros flags para un filtrado basado en otros parámetros presentes en el Dataset.
 Mejorar la versatilidad añadiendo distintos modos de trackeo o requests a la API, pues cuenta con 3 modos más (Visual passes, Radio passes, What's up)
 Incluir marcación de posición en mapa (Folium no permite exportación directa aunque con Selenium se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
 Exportación en pdf de la información y/o envío de mail con pdf adjunto.
 
-Links:
+LINKS:
+
 https://www.ucsusa.org/resources/satellite-database
 https://www.n2yo.com/api/#positions
