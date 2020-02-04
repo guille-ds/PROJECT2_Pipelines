@@ -19,7 +19,7 @@ Se ejecuta de **main.py** desde la línea de comandos y se introducen 3 flags:
 - Año (de lanzamiento)
 - Segundos (durante los cuales se trackeará el satélite)
 
-*Ej:  $ python3 main.py USA 2010 2*  -  Filtra los satélites lanzados por *USA* en *2010* y devuelve *2* posiciones
+*Ej:*  `$ python3 main.py USA 2010 2`  -  Filtra los satélites lanzados por *USA* en *2010* y devuelve *2* posiciones.
 
 Se produce el filtrado del dataset en base a los dos primeros campos introducidos y se muestra en la terminal los satélites que pasan el filtro.
 El usuario introduce el número de registro del satélite a trackear, lo cual ejecuta una request a la API, que devuelve un diccionario con la posición geolocalizada del satélite.
@@ -33,7 +33,9 @@ A dicha información se le añade la provista por el registro del satélite eleg
 - Exportación en pdf de la información y/o envío de mail con pdf adjunto.
 - Incluir marcación de posición en mapa (*Folium* no permite exportación directa aunque con *Selenium* se podría conseguir captura de pantalla o guardado de imagen desde explorador.)
 
+
 ![Folium test pic](/input/pic2.png)
+###### *Test de tracking de NORADid:43935 (4 de Febrero a las 13:51 durante 3 segundos) representado en Folium.*
 
 
 ### **LINKS**
