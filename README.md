@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# PROJECT2_Data_Analysis_Pipeline
-=======
-# PROJECT2 /// Satellites
+![satellite_Terra_pic](/input/pic.png)
 
-![alt text](https://raw.githubusercontent.com/guille-ds/PROJECT_Pipelines/input/pic.png)
-
+# PROJECT 2 /// Tracking Satellites  
 
 En este proyecto se busca **situar en tiempo real la posición de un satélite** en coordenadas terrestres (latitud, longitud, altitud). Para ello se utiliza un **Dataset y una API**.
 
@@ -41,4 +37,4 @@ A dicha información se le añade la provista por el registro del satélite eleg
 
 - Dataset https://www.ucsusa.org/resources/satellite-database
 - API https://www.n2yo.com/api/#positions
->>>>>>> 58ce5844fb9433ea6ee56a165c591eca55b87b1f
+
