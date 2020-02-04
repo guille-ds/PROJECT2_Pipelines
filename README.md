@@ -1,8 +1,6 @@
+![satellite Terra pic](/input/pic.png)
 
 # PROJECT2 /// Satellites
-
-![satellite Terra pic](https://raw.githubusercontent.com/guille-ds/PROJECT_Pipelines/input/pic.png)
-
 
 En este proyecto se busca **situar en tiempo real la posición de un satélite** en coordenadas terrestres (latitud, longitud, altitud). Para ello se utiliza un **Dataset y una API**.
 
