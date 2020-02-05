@@ -10,6 +10,8 @@ Ha sido limpiado para este proyecto de modo que se facilite su lectura.
 
 ### **API**
 La API es la *REST API v1 de N2YO* que cuenta con distintos métodos para la localización de satélites de forma gratuita, mediante una APIKey y con una restrición de 1000 requests/hora.
+###### Consigue una APIKey registrándote [aquí](https://www.n2yo.com/login/)
+
 
 ### **FUNCIONAMIENTO**
 
