@@ -15,7 +15,7 @@ La API es la *REST API v1 de N2YO* que cuenta con distintos métodos para la loc
 
 ### **FUNCIONAMIENTO**
 
-Se ejecuta de **main.py** desde la línea de comandos y se introducen 3 flags:
+Se ejecuta **main.py** desde la línea de comandos y se introducen 3 flags:
 
 - País (de procedencia del satélite)
 - Año (de lanzamiento)
